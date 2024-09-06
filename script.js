@@ -1,6 +1,6 @@
 function openModal() {
     document.getElementById('pdfModal').style.display = 'flex'; // Mostrar la ventana flotante
-    document.getElementById('pdfViewer').src = 'catalogo.pdf'; // Ruta al PDF
+    document.getElementById('pdfViewer').src = 'pdf/black.pdf'; // Ruta al PDF
 }
 
 function closeModal() {
