@@ -203,19 +203,6 @@ body {
 	font-family: "Nunito", sans-serif;
 }
 
-body {
-	background: linear-gradient(rgb(73 69 107), rgb(97 92 136));
-	height: 100vh;
-}
-
-.container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 90vh;
-	flex-direction: column;
-}
-
 .services {
 	display: flex;
 	flex-wrap: nowrap;
