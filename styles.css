@@ -183,117 +183,16 @@ label{
     align-items: center;
 }
 
-/* Contenido de la ventana flotante */
-.modal-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    width: 80%;
-    height: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-/* Botón de cierre */
-.close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-}
 
 .pdf-viewer {
-            width: 90%;
-            height: 100%; /* Ajusta el tamaño del visor según sea necesario */
-        }
+    width: 100%;
+    height: 100%;
 }
- body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
 
-        .table-container {
-            max-width: 1200px;
-            margin: 50px auto;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        thead {
-            background-color: #000000; /* Oro */
-            color: white;
-        }
-
-        th, td {
-            padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-
-        th {
-            font-weight: 500;
-        }
-
-        tbody tr:hover {
-            background-color: #f1f1f1;
-        }
-
-        .membership-header {
-            text-align: center;
-            padding: 15px 0;
-            font-size: 1.2em;
-            background-color:#ff0000ec; /* Oro */
-            color: white;
-        }
-
-        .highlight {
-            font-weight: bold;
-        }
-
-        @media (max-width: 768px) {
-            table, thead, tbody, th, td, tr {
-                display: block;
-            }
-
-            th {
-                background-color: #FFD700; /* Oro */
-                color: white;
-                font-weight: bold;
-            }
-
-            th, td {
-                text-align: left;
-                padding: 10px;
-                border-bottom: none;
-            }
-
-            tbody tr {
-                margin-bottom: 15px;
-                background-color: #fff;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            }
-
-            tbody tr:hover {
-                background-color: #f4f4f4;
-            }
-        }
-    </style>
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
