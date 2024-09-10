@@ -208,7 +208,7 @@ body {
 	height: 100vh;
 }
 
-.container1 {
+.container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
