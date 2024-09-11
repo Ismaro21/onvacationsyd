@@ -272,4 +272,29 @@ label{
 .footer span {
 	color: rgb(255, 255, 255);
 }
+.container {
+  display: flex;  /* Usamos Flexbox */
+  justify-content: center;  /* Centramos las cartas horizontalmente */
+  align-items: center;  /* Centramos verticalmente dentro del contenedor */
+  height: 100vh;  /* Ajusta el alto del contenedor */
+}
 
+.services {
+  display: flex;  /* Usamos Flexbox también aquí */
+  gap: 20px;  /* Añadimos un espacio entre las cartas */
+}
+
+.service {
+  width: 200px;  /* Ancho de cada carta */
+  border: 1px solid #ccc;  /* Añadimos borde a cada carta */
+  text-align: center;  /* Centramos el texto */
+  transition: transform 0.3s;  /* Agregamos una animación de transición */
+}
+
+.service:hover {
+  transform: scale(1.05);  /* Efecto de zoom al pasar el ratón */
+}
+
+.front, .back {
+  padding: 20px;  /* Añadimos relleno */
+}
