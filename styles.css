@@ -219,7 +219,7 @@ body {
 
 .service {
     width: 220px;  /* Aumentar el ancho */
-    height: 450px; /* Aumentar la altura */
+    height: 300px; /* Aumentar la altura */
     perspective: 1000px;
     position: relative;
 }
