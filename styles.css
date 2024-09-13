@@ -212,7 +212,7 @@ label{
 
 .service {
     width: 220px;  /* Aumentar el ancho */
-    height: 350px; /* Aumentar la altura */
+    height: 400px; /* Aumentar la altura */
     perspective: 1000px;
     position: relative;
 }
