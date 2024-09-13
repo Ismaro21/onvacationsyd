@@ -85,26 +85,7 @@ footer a {
     height: 60px; /* Cambia a la altura que desees */
 }
 
-.float-button {
-    text-decoration: none;
-    position: fixed;
-    padding: 10px;
-    padding-right: 15px;
-    bottom: 30px;
-    right: 30px;
-    color: #fff;
-    background-color:#25D366;
-    border-radius: 25px 30px 5px 25px;
-    z-index: 100;
-    font-family: Arial;
-    font-size: 17px;
-    animation: whatsapp-animation 0.5s ease-in-out;
-    box-shadow: 1px 2px 5px 2px rgba(30,30,30,0.3);
-    transition:all 0.3s ease-out;
-}
-
-/* Estilos para el botón flotante */
-.whatsapp-float {
+.float {
     position: fixed;
     width: 60px;
     height: 60px;
@@ -114,20 +95,16 @@ footer a {
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
 
-.whatsapp-float a {
-    color: white;
-    display: block;
-    line-height: 60px;
+.float:hover {
+    background-color: #128C7E;
 }
 
-/* Icono de WhatsApp */
-.whatsapp-icon {
-    font-size: 35px;
+.my-float {
+    margin-top: 22px;
 }
 @media screen and (max-width: 545px) {
     span {
