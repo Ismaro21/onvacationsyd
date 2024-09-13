@@ -103,27 +103,32 @@ footer a {
     transition:all 0.3s ease-out;
 }
 
-.float-button:hover {
-     background-color: #128C7E;
-      color: #fff;
+/* Estilos para el botón flotante */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
 
-.fa-whatsapp {
-    font-size: 20px !important;
-    padding-right: 5px;
-    padding-left: 5px;
+.whatsapp-float a {
+    color: white;
+    display: block;
+    line-height: 60px;
 }
 
-@keyframes whatsapp-animation {
-    from {
-        opacity: 0%;
-    }
-
-    to {
-        opacity: 100%
-    }
+/* Icono de WhatsApp */
+.whatsapp-icon {
+    font-size: 35px;
 }
-
 @media screen and (max-width: 545px) {
     span {
         display: none;
@@ -171,12 +176,24 @@ label{
     background-color: #f9f9f9; /* Fondo de la caja */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra para la caja */
 }
-
-{
-	box-sizing: border-box;
-	font-family: "Nunito", sans-serif;
+.modal {
+    display: none; /* Inicialmente oculta */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    justify-content: center;
+    align-items: center;
 }
-
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #512626;
+    color: #b51d1d;
+}
 .service {
 	display: flex;
 	justify-content: center;
@@ -237,7 +254,7 @@ label{
     position: absolute;
     backface-visibility: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgb(255, 253, 253);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
     transition: transform 0.6s;
     display: flex;
     align-items: center;
@@ -247,7 +264,7 @@ label{
 }
 
 .service .front {
-    background-color: #ffffff;
+    background-color: #ffe8e800;
     transform: rotateY(0deg);
 }
 
@@ -276,18 +293,29 @@ label{
 .service h3 {
     margin: 10px 0;
 }
+.service h4 {
+    font-family: "Josefin Slab", serif;
+    margin: 0;
+    padding: 0;
+    color: #fffcfc;
+}
 
 .service p {
     padding: 0 10px;
 }
 
-.footer {
-	text-align: center;
-	font-weight: 400;
-	padding: 0 auto;
-}
 
-.footer span {
-	color: rgb(255, 255, 255);
+.carousel {
+    width: 300%; /* Ajusta el ancho del carrusel */
+    max-width: 80%; /* Ancho máximo del carrusel */
+    margin: auto; /* Centra el carrusel */
 }
-
+.carousel-item img {
+    width: 100%; /* Asegura que la imagen ocupe el ancho del contenedor */
+    height: 400px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Mantiene la proporción de la imagen y recorta si es necesario */
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
