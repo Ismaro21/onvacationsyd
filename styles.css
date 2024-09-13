@@ -164,13 +164,6 @@ label{
     justify-content: center;
     align-items: center;
 }
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #512626;
-    color: #b51d1d;
-}
 .service {
 	display: flex;
 	justify-content: center;
@@ -219,7 +212,7 @@ body {
 
 .service {
     width: 220px;  /* Aumentar el ancho */
-    height: 300px; /* Aumentar la altura */
+    height: 350px; /* Aumentar la altura */
     perspective: 1000px;
     position: relative;
 }
