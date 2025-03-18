@@ -5,7 +5,6 @@ body {
     background-color: #f0e4e4;
     color: #ffffff;
 }
-
 .hero {
     background: url(img/desktop.webp) no-repeat center center/cover;
     color: rgb(0, 0, 0);
@@ -15,11 +14,9 @@ body {
     justify-content: center;
     text-align: center;
 }
-
 .hero h2 {
     margin: 0;
 }
-
 #promotions, #booking, #testimonials {
     padding: 20px;
     margin: 20px;
@@ -27,32 +24,25 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
 .promotion, .testimonial {
     margin-bottom: 15px;
 }
-
 footer {
     background-color: #ff0000;
     color: white;
     text-align: center;
     padding: 10px 0;
 }
-
 footer p {
     margin: 5px 0;
 }
-
 footer a {
     color: #ffffff;
     text-decoration: none;
 }
-
 .bg-primary {
     background-color: #f5f2f2 !important;
 }
-
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -61,13 +51,9 @@ footer a {
     margin: 0 auto;
     padding: 0 20px;
 }
-
 .Logo img {
     height: 50px;
 }
-
-
-
 .btn {
     background-color: #e94e77;
     color: #fff;
@@ -76,15 +62,12 @@ footer a {
     border-radius: 5px;
     margin-right: 20px;
 }
-
 .btn:hover {
     background-color: #d43f65;
 }
-
 .navbar-brand img {
     height: 60px; /* Cambia a la altura que desees */
 }
-
 .float-button {
     text-decoration: none;
     position: fixed;
@@ -102,8 +85,6 @@ footer a {
     box-shadow: 1px 2px 5px 2px rgba(30,30,30,0.3);
     transition:all 0.3s ease-out;
 }
-
-/* Estilos para el botón flotante */
 .whatsapp-float {
     position: fixed;
     width: 60px;
@@ -118,14 +99,11 @@ footer a {
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
-
 .whatsapp-float a {
     color: white;
     display: block;
     line-height: 60px;
 }
-
-/* Icono de WhatsApp */
 .whatsapp-icon {
     font-size: 35px;
 }
@@ -133,20 +111,17 @@ footer a {
     span {
         display: none;
     }
-
     .float-button {
         bottom: 15px;
         right: 15px;
         width: 20px;
         border-radius: 20px 20px 5px 20px;
     }
-
     .fa-whatsapp {
         font-size: 22px !important;
         padding: 4px;
     }
 }
-
 p {
     font-family: 'Dosis', sans-serif;
 }
@@ -162,11 +137,9 @@ a{
 h5{
     font-family: 'Dosis', sans-serif;
 }
-
 label{
   font-family: 'Dosis', sans-serif;
 }
-
 .form-box {
     max-width: 400px; /* Ancho máximo de la caja */
     margin: 50px auto; /* Centrar la caja */
@@ -206,16 +179,12 @@ body {
 	transform-style: preserve-3d;
 	perspective: 700px;
 }
-
-
 .service1 .front {
 	background: linear-gradient(45deg, rgb(0, 0, 0), rgba(110, 103, 103, 0.924));
 }
-
 .service2 .front {
 	background: linear-gradient(45deg, rgb(137, 210, 255), rgb(0, 68, 255));
 }
-
 .service3 .front {
 	background: linear-gradient(45deg, rgba(255, 204, 0, 0.921), rgb(255, 111, 0));
 }
@@ -231,7 +200,6 @@ body {
     align-items: center;
     padding: 20px;
 }
-
 .services {
     display: flex;
     justify-content: space-around;
@@ -239,14 +207,12 @@ body {
     gap: 30px; /* Ajuste de espacio entre cartas */
     max-width: 1300px;
 }
-
 .service {
     width: 220px;  /* Aumentar el ancho */
     height: 450px; /* Aumentar la altura */
     perspective: 1000px;
     position: relative;
 }
-
 .service .front,
 .service .back {
     width: 115%;
@@ -262,12 +228,10 @@ body {
     flex-direction: column;
     overflow: hidden;
 }
-
 .service .front {
     background-color: #ffe8e800;
     transform: rotateY(0deg);
 }
-
 .service .back {
     background-size: cover; /* Imagen cubre toda la parte trasera */
     background-position: center;
@@ -445,20 +409,6 @@ header {
   color: #fff;
 }
 
-.parallax {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150dvh;
-  background: rgb(206, 245, 223);
-  background: radial-gradient(
-    circle,
-    rgba(206, 245, 223, 0.4) 34%,
-    rgba(206, 245, 223, 1) 68%
-  );
-}
-
 .parallax img {
   position: absolute;
   bottom: 0;
@@ -578,7 +528,19 @@ header {
     padding: 100px 120px 20px;
   }
 }
-
+.destination-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.destination-container img {
+    width: 40%;
+    height: auto;
+}
+.destination-description {
+    width: 55%;
+}
 @media (max-width: 900px) {
   .navigation li {
     margin-left: 10px;
