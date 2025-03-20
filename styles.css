@@ -614,3 +614,20 @@ header {
   width: calc(33.333% - 20px); /* Ajusta el ancho de cada card (3 cards por fila) */
   margin-bottom: 20px; /* Espacio entre las filas de cards */
 }
+
+.destination-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .destination-container {
+      flex-direction: column;
+      padding: 10px;
+  }
+  .destination-description {
+      padding: 15px;
+  }
+}
